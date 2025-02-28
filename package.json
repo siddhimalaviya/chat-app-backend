@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^8.0.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7",
+    "ws": "^8.18.1"
+  }
+}
